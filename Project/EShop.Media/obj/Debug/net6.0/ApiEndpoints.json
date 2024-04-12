@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "EShop.Media.Controllers.UploadImageController",
+    "Method": "SaveImage_Data",
+    "RelativePath": "api/UploadImage/SaveImage_Data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "EShop.Media.Models.SaveImage_DataRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

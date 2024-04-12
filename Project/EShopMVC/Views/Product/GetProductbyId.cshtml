@@ -1,0 +1,64 @@
+﻿@model EShopMVC.Models.Product
+@{
+    ViewBag.Title = "GetProductbyId";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div id="form-group">
+    <label for="email">Tên sản phẩm</label>
+    <input type="hidden" class="form-control" value="@Model.ProductId" id="txtProductId" />
+    <input type="text" class="form-control" value="@Model.ProductName" id="txtProductName" />
+</div>
+<div id="form-group">
+    <label for="email">Tên sản phẩm</label>
+    <input type="text" class="form-control" value="@Model.Shop_Id" id="txtShopId" />
+</div>
+<div id="form-group">
+    <label for="email">Tên sản phẩm</label>
+    <input type="text" class="form-control" value="@Model.Description" id="txtDescription" />
+</div>
+<div id="form-group">
+    <label for="email">Tên sản phẩm</label>
+    <input type="text" class="form-control" value="@Model.Quantity" id="txtQuantity" />
+</div>
+
+<button type="button" class="btn btn-default" id="btnSave">Search</button>
+<button type="button" class="btn btn-default" id="btnBack">Back</button>
+
+<script>
+    $(document).ready(function () {
+
+        $("#btnSave").click(function () {
+            ProductInsertUpdate()
+        })
+
+        $("#btnBack").click(function () {
+            window.location.href = "/Product"
+        })
+    });
+
+    function ProductInsertUpdate() {
+        var input_data = {
+            ProductId: $("#txtProductId").val(),
+            ProductName: $("#txtProductName").val(),
+            Shop_Id: $("#txtShopId").val(),
+            Description: $("#txtDescription").val(),
+            Quantity: $("#txtQuantity").val()
+
+        }
+
+        $.ajax({
+            url: '@Url.Action("ProductInsertUpdate", "Product")',
+            type: 'POST',
+            data: input_data,
+            dataType: 'json',
+            success: function (result) {
+                window.location.href = "/Product/Index"
+            },
+            error: function (data) {
+                alert('Error adding product.');
+            }
+        });
+    }
+</script>

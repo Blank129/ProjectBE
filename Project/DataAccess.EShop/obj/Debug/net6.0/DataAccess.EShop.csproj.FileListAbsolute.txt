@@ -1,0 +1,14 @@
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\bin\Debug\net6.0\DataAccess.EShop.deps.json
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\bin\Debug\net6.0\DataAccess.EShop.runtimeconfig.json
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\bin\Debug\net6.0\DataAccess.EShop.dll
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\bin\Debug\net6.0\DataAccess.EShop.pdb
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\DataAccess.EShop.csproj.AssemblyReference.cache
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\DataAccess.EShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\DataAccess.EShop.AssemblyInfoInputs.cache
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\DataAccess.EShop.AssemblyInfo.cs
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\DataAccess.EShop.csproj.CoreCompileInputs.cache
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\DataAccess.EShop.dll
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\refint\DataAccess.EShop.dll
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\DataAccess.EShop.pdb
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\DataAccess.EShop.genruntimeconfig.cache
+C:\Users\V\Documents\KhoaC#\Project\DataAccess.EShop\obj\Debug\net6.0\ref\DataAccess.EShop.dll

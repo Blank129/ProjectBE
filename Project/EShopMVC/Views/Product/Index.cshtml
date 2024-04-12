@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Naviheader{
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="../../index3.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="#" class="nav-link">Contact</a>
+        </li>
+    </ul>
+
+    <!-- SEARCH FORM -->
+    @*ko thể tìm kiếm trên thèn <form> được nên ta chuyển sang div*@
+    <div class="form-inline ml-3">
+        <div class="input-group input-group-sm">
+            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search" id="txtProductName">
+            <div class="input-group-append">
+                <button class="btn btn-navbar" id="btnSearch">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+<div id="listPartialView"></div>
+
+<script>
+    $(document).ready(function () {
+        loadPartialView();
+
+        $("#btnSearch").click(function () {
+            loadPartialView();
+        })
+    });
+
+    function loadPartialView() {
+        var input_data = {
+            name: $("#txtProductName").val()
+        }
+
+        $.ajax({
+            url: '@Url.Action("ListPartialView", "Product")',
+            type: 'GET',
+            data: input_data,
+            success: function (result) {
+                $("#listPartialView").html("");
+                $("#listPartialView").html(result);
+
+
+            },
+            error: function (data) {
+                alert('Error adding product.');
+            }
+        });
+    }
+</script>
+
+
+
