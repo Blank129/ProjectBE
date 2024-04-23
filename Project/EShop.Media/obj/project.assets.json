@@ -569,19 +569,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\V\\.nuget\\packages\\": {}
+    "C:\\Users\\ngocm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Media\\EShop.Media.csproj",
+      "projectUniqueName": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Media\\EShop.Media.csproj",
       "projectName": "EShop.Media",
-      "projectPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Media\\EShop.Media.csproj",
-      "packagesPath": "C:\\Users\\V\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Media\\obj\\",
+      "projectPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Media\\EShop.Media.csproj",
+      "packagesPath": "C:\\Users\\ngocm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Media\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\V\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ngocm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -595,8 +595,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Common\\EShop.Common.csproj": {
-              "projectPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Common\\EShop.Common.csproj"
+            "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Common\\EShop.Common.csproj": {
+              "projectPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Common\\EShop.Common.csproj"
             }
           }
         }
@@ -644,7 +644,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

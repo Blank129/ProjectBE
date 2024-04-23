@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShopAPI\\EShopAPI.csproj": {}
+    "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShopAPI\\EShopAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\V\\Documents\\KhoaC#\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj": {
+    "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj",
+        "projectUniqueName": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj",
         "projectName": "DataAccess.EShop",
-        "projectPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj",
-        "packagesPath": "C:\\Users\\V\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\DataAccess.EShop\\obj\\",
+        "projectPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj",
+        "packagesPath": "C:\\Users\\ngocm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\DataAccess.EShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\V\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngocm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,15 +82,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Common\\EShop.Common.csproj": {
+    "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Common\\EShop.Common.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Common\\EShop.Common.csproj",
+        "projectUniqueName": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Common\\EShop.Common.csproj",
         "projectName": "EShop.Common",
-        "projectPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Common\\EShop.Common.csproj",
+        "projectPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Common\\EShop.Common.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -101,17 +101,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShopAPI\\EShopAPI.csproj": {
+    "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShopAPI\\EShopAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShopAPI\\EShopAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShopAPI\\EShopAPI.csproj",
         "projectName": "EShopAPI",
-        "projectPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShopAPI\\EShopAPI.csproj",
-        "packagesPath": "C:\\Users\\V\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShopAPI\\obj\\",
+        "projectPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShopAPI\\EShopAPI.csproj",
+        "packagesPath": "C:\\Users\\ngocm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShopAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\V\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngocm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -125,11 +125,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\V\\Documents\\KhoaC#\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj": {
-                "projectPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj"
+              "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj": {
+                "projectPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj"
               },
-              "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Common\\EShop.Common.csproj": {
-                "projectPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\EShop.Common\\EShop.Common.csproj"
+              "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Common\\EShop.Common.csproj": {
+                "projectPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\EShop.Common\\EShop.Common.csproj"
               }
             }
           }
@@ -149,6 +149,30 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -177,7 +201,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

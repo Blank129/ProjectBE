@@ -1,4 +1,5 @@
-﻿using DataAccess.EShop.Entities;
+﻿using DataAccess.Blog.Entities;
+using DataAccess.EShop.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,10 @@ namespace DataAccess.EShop.EntitiesFramework
             base.OnModelCreating(builder);
         }
         public virtual DbSet<Product> Product { get; set; }
-    }
+        public virtual DbSet<User> User { get; set; }
+		public virtual DbSet<Function> Function { get; set; }
+		public virtual DbSet<UserFunction> UserFunction { get; set; }
+        public virtual DbSet<Role> Role { get; set; }
+	}
     
 }

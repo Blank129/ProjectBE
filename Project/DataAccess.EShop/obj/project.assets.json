@@ -2014,19 +2014,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\V\\.nuget\\packages\\": {}
+    "C:\\Users\\ngocm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj",
+      "projectUniqueName": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj",
       "projectName": "DataAccess.EShop",
-      "projectPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj",
-      "packagesPath": "C:\\Users\\V\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\V\\Documents\\KhoaC#\\Project\\DataAccess.EShop\\obj\\",
+      "projectPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\DataAccess.EShop\\DataAccess.EShop.csproj",
+      "packagesPath": "C:\\Users\\ngocm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ngocm\\source\\repos\\ProjectBE\\Project\\DataAccess.EShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\V\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ngocm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2094,7 +2094,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
